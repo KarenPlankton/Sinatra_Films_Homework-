@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Films</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+
+  <ul style="list-style: none;">
+
+
+
+  <li><%= @film.title %></li>
+  <li>£<%= @film.price %></li>
+
+  </ul>
+
+  <nav class="back">
+     <button  onclick="window.location.href = 'http://localhost:4567/films';" class="button">Go Back</button>
+  </nav>
+
+
+  </body>
+</html>
